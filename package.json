@@ -1,0 +1,9 @@
+
+{"homepage": "http://gyeongza.github.io/momentum_2022"}
+"scripts": {
+    //...
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    
+  }
+
